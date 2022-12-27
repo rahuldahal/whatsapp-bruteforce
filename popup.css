@@ -1,0 +1,91 @@
+body {
+  width: 300px;
+  background: #25d366;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.onWhatsapp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.notOnWhatsapp {
+  display: none;
+  text-align: center;
+  color: #fff;
+  font-size: 1rem;
+}
+
+.hidden {
+  display: none;
+}
+
+.block {
+  display: block;
+}
+
+h2 {
+  text-align: center;
+  color: #fff;
+}
+
+label {
+  display: block;
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 0.25rem;
+  color: #fff;
+}
+
+input {
+  border-radius: 0.25rem;
+  padding: 0.5rem;
+  border: none;
+}
+
+.messageContainer {
+  width: 100%;
+}
+
+.messageContainer input {
+  width: 100%;
+}
+
+.configurations {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.configurations input {
+  width: 100%;
+}
+
+.send {
+  margin: 0 auto;
+  margin-top: 1rem;
+  display: block;
+  width: 100%;
+  padding: 0.75rem;
+  font-size: 1.1rem;
+  border-radius: 0.5rem;
+  transition: transform 0.3s linear;
+  cursor: pointer;
+  background: #008069;
+  color: #fff;
+  border: none;
+}
+
+.send:hover,
+.send:focus {
+  transform: translateY(-0.25rem);
+}
+
+.send:active {
+  transform: scale(0.9);
+}
