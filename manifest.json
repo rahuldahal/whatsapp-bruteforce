@@ -1,0 +1,23 @@
+{
+  "name": "WhatsApp Bruteforce",
+  "version": "0.1.0",
+  "description": "Send Bruteforce Messages",
+  "permissions": ["tabs"],
+  "host_permissions": ["https://web.whatsapp.com/*"],
+  "content_scripts": [
+    {
+      "matches": ["https://web.whatsapp.com/*"],
+      "js": ["contentScript.js"]
+    }
+  ],
+  "action": {
+    "default_icon": {
+      "16": "assets/icon-16.png",
+      "24": "assets/icon-24.png",
+      "32": "assets/icon-32.png"
+    },
+    "default_title": "WhatsApp Bruteforce",
+    "default_popup": "popup.html"
+  },
+  "manifest_version": 3
+}

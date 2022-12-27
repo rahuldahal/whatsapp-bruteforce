@@ -1,0 +1,28 @@
+<link href="popup.css" rel="stylesheet" type="text/css" />
+
+<body>
+  <h2>WhatsApp Bruteforce</h2>
+
+  <section class="onWhatsapp">
+    <div class="messageContainer">
+      <label for="message">Message</label>
+      <input type="text" id="message" value="&#128077;" />
+    </div>
+    <div class="configurations">
+      <div class="thresholdContainer">
+        <label for="threshold">Threshold</label>
+        <input type="number" id="threshold" value="10" />
+      </div>
+      <div class="timeoutContainer">
+        <label for="timeout">Timeout</label>
+        <input type="number" id="timeout" value="3000" />
+      </div>
+    </div>
+    <button class="send">Send</button>
+  </section>
+
+  <p class="notOnWhatsapp">
+    You must be on the WhatsApp page to use the extension.
+  </p>
+</body>
+<script type="module" src="popup.js"></script>
